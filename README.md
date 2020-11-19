@@ -8,6 +8,8 @@ You can run it easily from your own command line terminal with <b>"python Dearpy
 <br>
 <b>Author:</b> Mariya Sha
 <br>
+<b>Email:</b> mariyasha888@gmail.com
+<br>
 <b>Dependencies:</b>
 <br>
 <ul>
@@ -16,7 +18,6 @@ You can run it easily from your own command line terminal with <b>"python Dearpy
   <li>NLTK</li>
   <li>String</li>
 </ul>
-<br>
 <b>Read publication on Medium (without GUI):</b>
 <br>
 https://medium.com/analytics-vidhya/how-to-build-a-simple-sms-spam-filter-with-python-ee777240fc
