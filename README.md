@@ -5,7 +5,9 @@ This is a simple program which labels user-provided strings as spam or not spam 
 <br>
 You can run it easily from your own command line terminal with <b>"python Dearpy.py"</b>
 <br>
+<br>
 <b>Author:</b> Mariya Sha
+<br>
 <b>Dependencies:</b>
 <br>
 <ul>
