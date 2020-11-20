@@ -1,7 +1,7 @@
 # SimpleSMSspamFilter_GUI
 The GUI Version of Simple SMS Spam Filter created with DearPy GUI
 <br>
-<img src="https://user-images.githubusercontent.com/32107652/99757481-48d73a80-2aa4-11eb-9e11-29fdc96f6c06.jpg", alt="a graphic of 3 different frames of the Simple SMS Spam Filter GUI app">
+![DearPyGUI](https://user-images.githubusercontent.com/32107652/99757481-48d73a80-2aa4-11eb-9e11-29fdc96f6c06.jpg)
 <br>
 This is a simple program which labels user-provided strings as spam or not spam (ham)
 <br>
