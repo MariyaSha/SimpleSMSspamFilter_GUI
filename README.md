@@ -15,9 +15,9 @@ This directory contains the full version of the app.
 <br>
 This directory contains only the logo, database, and functions.py
 <br>
-app.py is incomplete, and is only useful to you if you follow the Python Simplified tutorial on Youtube
+app.py is incomplete, and is only useful to you if you follow the Python Simplified tutorial on Youtube:
 <br>
-(Scheduled to be uploaded on Nov 26)
+https://youtu.be/2RocXKPPx4o
 <br>
 <br>
 ![DearPyGUI](https://user-images.githubusercontent.com/32107652/99757481-48d73a80-2aa4-11eb-9e11-29fdc96f6c06.jpg)
