@@ -31,10 +31,10 @@ app.py is incomplete, and is only useful to you if you follow the Python Simplif
   <li>NLTK</li>
   <li>String</li>
 </ul>
-<br>
 <b>Database from:</b>
 <br>
 http://www.dt.fee.unicamp.br/~tiago/smsspamcollection/
+<br>
 <br>
 <b>Author:</b> Mariya Sha
 <br>
