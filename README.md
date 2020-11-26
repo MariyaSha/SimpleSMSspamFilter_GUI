@@ -6,11 +6,11 @@ This simple program labels user-provided strings as spam or not spam (ham)
 <br>
 You can run it easily from your own command line terminal with <b>"python Dearpy.py"</b>
 <br>
-<b>/finishedProject<b>
+<b>/finishedProject</b>
 <br>
 This directory contains the full version of the app.
 <br>
-<b>/starterFiles<b>
+<b>/starterFiles</b>
 <br>
 This directory contains only the logo, database, and functions.py
 <br>
