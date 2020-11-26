@@ -22,6 +22,7 @@ app.py is incomplete, and is only useful to you if you follow the Python Simplif
 <br>
 ![DearPyGUI](https://user-images.githubusercontent.com/32107652/99757481-48d73a80-2aa4-11eb-9e11-29fdc96f6c06.jpg)
 <br>
+<br>
 <b>Dependencies:</b>
 <br>
 <ul>
@@ -34,7 +35,6 @@ app.py is incomplete, and is only useful to you if you follow the Python Simplif
 <b>Database from:</b>
 <br>
 http://www.dt.fee.unicamp.br/~tiago/smsspamcollection/
-<br>
 <br>
 <b>Author:</b> Mariya Sha
 <br>
