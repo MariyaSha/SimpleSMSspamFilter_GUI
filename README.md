@@ -63,8 +63,7 @@ draw_image("logo", "logo_spamFilter.png", [0,0], [458,192])
 <b>!!! * Important Notes for Mac Users * !!!</b>
 <br>
 <br>
-* add wrap=0 to your add_text() function:
-<br>
+add wrap=0 to your add_text() function:
 <br>
 add_text("Please enter an SMS message of your choice to check if it's spam or not",
     color=[232,163,33])
