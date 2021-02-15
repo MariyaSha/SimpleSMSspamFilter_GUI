@@ -62,15 +62,15 @@ Try adjusting your draw_image function to:
 draw_image("logo", "logo_spamFilter.png", [0,0], [458,192])
 <br>
 <br>
-<b>!!! * Important Notes for Mac Users * !!!:</b>
+<b>!!! * Important Notes for Mac Users * !!!</b>
 <br>
 <br>
 * add wrap=0 to your add_text() function:
 <br>
-```python
+<br>
 add_text("Please enter an SMS message of your choice to check if it's spam or not",
     color=[232,163,33])
-```
+<br>
 <br>
 <b>A Special Thank You to Jerimiah Ham</b> who shared this solution on YouTube for the Important Notes above and globalizing the pred list!
 <br>
