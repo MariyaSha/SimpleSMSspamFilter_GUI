@@ -46,6 +46,39 @@ This project was created for learning purposes, so feel free to use
 whichever parts of this applicatioin you need to help you become better at programming.
 <br>
 <br>
+<b>!!! * Important Notes * !!!</b>
+<br>
+If you get the following error:
+<br>
+```
+TypeError: function missing required argument 'pmax' (pos 4)
+Exception: Error parsing DearPyGui Marvel::draw_image command on line 16
+```
+<br>
+Try adjusting your draw_image function to:
+<br>
+```python
+draw_image("logo", "logo_spamFilter.png", [0,0], [458,192])
+```
+<br>
+<b>!!! * Important Notes for Mac Users * !!!:</b>
+<br>
+* add wrap=0 to your add_text() function:
+<br>
+```python
+add_text("Please enter an SMS message of your choice to check if it's spam or not",
+    color=[232,163,33])
+```
+<br>
+<b>A Special Thank You to Jerimiah Ham</b> who shared this solution on YouTube for the Important Notes above and globalizing the pred list!
+<br>
+<b>Another Special Thank You to cyberblitz</b> for helping with removing repeating code and saving everybody lots of typing!
+<br>
+<br>
+<b>Watch full GUI tutorial on Youtube:</b>
+<br>
+https://youtu.be/2RocXKPPx4o
+<br>
 <b>Read publication on Medium (without GUI):</b>
 <br>
 https://medium.com/analytics-vidhya/how-to-build-a-simple-sms-spam-filter-with-python-ee777240fc
@@ -61,3 +94,7 @@ https://hoffstadt.github.io/DearPyGui/index.html
 <b>Connect on LinkedIn:</b>
 <br>
 https://www.linkedin.com/in/mariyasha888/
+<br>
+<b>Follow on Instagram:</b>
+<br>
+https://www.instagram.com/mariyasha888/
