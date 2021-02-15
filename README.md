@@ -51,13 +51,11 @@ whichever parts of this applicatioin you need to help you become better at progr
 <br>
 If you get the following error:
 <br>
-<br>
 TypeError: function missing required argument 'pmax' (pos 4)
 Exception: Error parsing DearPyGui Marvel::draw_image command on line 16
 <br>
 <br>
 Try adjusting your draw_image function to:
-<br>
 <br>
 draw_image("logo", "logo_spamFilter.png", [0,0], [458,192])
 <br>
