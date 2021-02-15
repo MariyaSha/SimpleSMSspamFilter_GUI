@@ -5,9 +5,10 @@ from dearpygui.simple import *
 #functions.py Imports
 from functions import categorize_words, pre_process, predict
 
+pred = []
 #button callbak function
 #runs each time when the "Check" button is clicked
-def check_spam(sender, data, pred =[]):
+def check_spam(pred):
     with window("Simple SMS Spam Filter"):
         if pred == []:
             #runs only once - the the button is first clicked
@@ -15,24 +16,17 @@ def check_spam(sender, data, pred =[]):
             add_spacing(count=12)
             add_separator()
             add_spacing(count=12)
-            #collect input, pre-process and get prediction
-            input_value = get_value("Input")
-            input_value = pre_process(input_value)
-            pred_text, text_colour = predict(input_value)
-            #store prediction inside the pred list
-            pred.append(pred_text)
-            #display prediction to user
-            add_text(pred[-1], color=text_colour)
         else:
             #hide prediction widget
             hide_item(pred[-1])
-            #collect the current user input and evaluate it
-            input_value = get_value("Input")
-            input_value = pre_process(input_value)
-            pred_text, text_colour = predict(input_value)
-            #store prediction inside the pred list
-            pred.append(pred_text)
-            add_text(pred[-1], color=text_colour)
+        #collect input, pre-process and get prediction
+        input_value = get_value("Input")
+        input_value = pre_process(input_value)
+        pred_text, text_colour = predict(input_value)
+        #store prediction inside the pred list
+        pred.append(pred_text)
+        #display prediction to user
+        add_text(pred[-1], color=text_colour)
 
 #window object settings
 set_main_window_size(540, 720)
@@ -56,7 +50,7 @@ with window("Simple SMS Spam Filter", width=520, height=677):
     add_input_text("Input", width=415, default_value="type message here!")
     add_spacing(count=12)
     #action button
-    add_button("Check", callback=check_spam)
+    add_button("Check", callback=lambda x,y:check_spam(pred))
 
 
 draw_image("logo", "logo_spamFilter.png", [0, 240]) #place the image inside the space
