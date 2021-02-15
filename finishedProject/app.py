@@ -40,6 +40,7 @@ with window("Simple SMS Spam Filter", width=520, height=677):
 
     #image logo
     add_drawing("logo", width=520, height=290) #create some space for the image
+
     add_separator()
     add_spacing(count=12)
     #text instructions
@@ -52,8 +53,11 @@ with window("Simple SMS Spam Filter", width=520, height=677):
     #action button
     add_button("Check", callback=lambda x,y:check_spam(pred))
 
+#place the image inside the space
+draw_image("logo", "logo_spamFilter.png", [0, 240])
 
-draw_image("logo", "logo_spamFilter.png", [0, 240]) #place the image inside the space
+#IF THE PREVIOUS LINE OF CODE TRIGGERS AN ERRROR TRY
+#draw_image("logo", "logo_spamFilter.png", [0,0], [458,192])
 
 start_dearpygui()
 print("Bye Bye, GUI")
