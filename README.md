@@ -71,6 +71,8 @@ add_text("Please enter an SMS message of your choice to check if it's spam or no
 <br>
 <b>A Special Thank You to Jerimiah Ham</b> who shared this solution on YouTube for the Important Notes above and globalizing the pred list!
 <br>
+<b>Another Special Thank You to DroidZed : Gaming - IT</b> for suggesting the global pred list!
+<br>
 <b>Another Special Thank You to cyberblitz</b> for helping with removing repeating code and saving everybody lots of typing!
 <br>
 <br>
